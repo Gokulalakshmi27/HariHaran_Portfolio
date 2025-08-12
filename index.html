@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hari Haran P | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0d6efd;
+      --secondary: #6c757d;
+      --bg: #f8f9fa;
+      --dark: #212529;
+      --light: #ffffff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: var(--light);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: .5rem;
+    }
+    header a {
+      color: var(--light);
+      text-decoration: none;
+      margin: 0 .5rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .skills-grid, .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: var(--light);
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .timeline {
+      border-left: 3px solid var(--primary);
+      padding-left: 1rem;
+    }
+    .timeline div {
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hari Haran P</h1>
+  <p>mohammedfazalb22@gmail.com | +91 7845677749</p>
+  <p>
+    <a href="https://mohammed-fazal-portfolio.vercel.app" target="_blank">Portfolio</a> |
+    <a href="https://linkedin.com/in/mohammedfazalb" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/MohammedFazalB" target="_blank">GitHub</a>
+  </p>
+</header>
+
+<section>
+  <h2>Objective</h2>
+  <p>Driven and detail-oriented tech enthusiast with a passion for secure full-stack development and ethical hacking. Seeking to contribute to innovative projects that blend cybersecurity and scalable web solutions. Eager to leverage my skills to build robust, intelligent, and future-ready systems.</p>
+</section>
+
+<section>
+  <h2>Areas of Interest</h2>
+  <ul>
+    <li>Full Stack Development (Frontend, Backend, Database)</li>
+    <li>Cybersecurity (Ethical Hacking, Penetration Testing, Bug Bounty)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="timeline">
+    <div>
+      <strong>Dr. Mahalingam College of Engineering and Technology, Pollachi</strong> – B.E. CSE (Cybersecurity)  
+      <br>Expected Graduation: 2027 | CGPA: 8.26
+    </div>
+    <div>
+      <strong>Ponnu Matriculation Higher Secondary School, Dharapuram</strong> – SSLC  
+      <br>2021 | Percentage: 85%
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="card">
+      <strong>Languages:</strong> Python, Java, C, C++
+    </div>
+    <div class="card">
+      <strong>Web Development:</strong> React, Node.js, HTML, JavaScript, Tailwind CSS, MySQL
+    </div>
+    <div class="card">
+      <strong>Cybersecurity Tools & Cryptography:</strong> AES-256, SHA-256, RSA, Wireshark, Burpsuite, Nmap, TryHackMe
+    </div>
+    <div class="card">
+      <strong>Cybersecurity Platforms & Labs:</strong> TryHackMe, HackTheBox, CTF, PortSwigger Labs
+    </div>
+    <div class="card">
+      <strong>Tools & IDEs:</strong> VS Code, PyCharm, Android Studio, Jupyter Notebook, Git, Figma, Canva
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="card">
+      <strong>Secure File Sharing System</strong> (June 5 – June 20, 2025)  
+      <ul>
+        <li>Built a secure client-server file transfer system using Fernet encryption and Merkle Trees.</li>
+        <li>Developed a Streamlit web UI for file upload/download with real-time logging.</li>
+        <li>Implemented error handling, socket communication, and secure data flow.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>To Do List</strong> (March 4 – March 9, 2025)  
+      <ul>
+        <li>Developed a task management app using MERN stack with responsive design.</li>
+        <li>Built RESTful backend API with robust CRUD operations and validation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Internship</h2>
+  <div class="card">
+    <strong>Ethical Hacking Intern</strong> – Codec Technology, Mumbai (June 5 – July 10, 2025)  
+    <ul>
+      <li>Developed a secure file encryption tool using Flask, AES-256, and OpenSSL.</li>
+      <li>Applied SHA-256 hashing for data integrity and secure transmission.</li>
+      <li>Practiced penetration testing using Kali Linux tools like Nmap, Nikto, and Wireshark.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>Advanced Ethical Hacking – GUVI</li>
+    <li>Java & PHP Complete Course – Udemy</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Achievements</h2>
+  <ul>
+    <li><strong>1st Prize</strong> – DIGIFEST Internal Web Competition</li>
+    <li><strong>2nd Prize</strong> – Coding & Debugging, TECHCARNIVAL 2K24</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Extra Curricular Activities</h2>
+  <ul>
+    <li>Actively volunteered at NSS for community service initiatives.</li>
+    <li>Promoted digital safety and basic coding in college awareness programs.</li>
+  </ul>
+</section>
+
+</body>
+</html>
